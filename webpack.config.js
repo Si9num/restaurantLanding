@@ -33,13 +33,13 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, "./img"),
-          to: path.resolve(__dirname, "dist/img"),
+          from: path.resolve(__dirname, "./assets"),
+          to: path.resolve(__dirname, "dist/assets"),
         },
       ],
     }),
     new MiniCssExtractPlugin({
-      filename: "./index.css",
+      filename: "./style.css",
     }),
   ],
   mode: "development",

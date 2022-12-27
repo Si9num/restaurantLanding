@@ -1,0 +1,29 @@
+body{
+    background-color: gold;
+}
+
+ul{
+    list-style-type:none;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navList {
+    display: flex;
+    
+}
+.navList li{
+    margin-left: 5vw;
+    font-family: 'Montserrat';
+    font-size: calc(9px + 11 * (100vw / 1280));
+    margin-top: 1vw;
+}
+.hoverBack h2{
+font-family: 'Grand Hotel', cursive;
+}
+.hoverBack p{
+font-family:  'Montserrat';
+}
