@@ -1,6 +1,4 @@
-body{
-    background-color: gold;
-}
+
 button {
     padding: 0;
     border: none;
@@ -69,4 +67,17 @@ font-family: 'Grand Hotel', cursive;
 }
 .hoverBack p{
 font-family:  'Montserrat';
+}
+.dishBlock{
+    background-color: #ffffff;
+    
+    font-family: 'Montserrat';
+    font-size: calc(9px + 11 * (100vw / 1280));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dishBlock h2{
+    font-family: 'Grand Hotel', cursive;
 }
