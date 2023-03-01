@@ -70,14 +70,87 @@ font-family:  'Montserrat';
 }
 .dishBlock{
     background-color: #ffffff;
-    
     font-family: 'Montserrat';
     font-size: calc(9px + 11 * (100vw / 1280));
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 10%;
 }
 .dishBlock h2{
     font-family: 'Grand Hotel', cursive;
+}
+.dishBlock p{
+    margin-bottom: 5%;
+}
+.dishList{
+ 
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.dish{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: calc(9px + 15 * (100vw / 1280));
+    width:25%;
+   
+}
+.dish h3{
+    font-family: 'Grand Hotel', cursive;
+}
+.dish p{
+    text-align: center;
+}
+.statBlock{
+    background-image: url(./assets/Group\ 3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 100%;
+}
+.statBlock h2{
+    font-family: 'Grand Hotel', cursive;
+    color:#ffc200;
+    font-size: calc(9px + 40 * (100vw / 1280));
+    letter-spacing: 7px;
+}
+.statCards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:auto;
+}
+.statCard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:12vw;
+    height:25vh;
+    color:#ffffff;
+  background-image: url(./assets/circle.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+    font-family: 'Montserrat';
+    font-size: calc(9px + 17 * (100vw / 1280));
+   margin-bottom: 10%;
+}
+.statCard .num{
+    color:#ffc200;
+   margin-bottom: 0;
+}
+.upBlock{
+    background-image: url(./assets/up.png);
+    background-size: cover;
 }
