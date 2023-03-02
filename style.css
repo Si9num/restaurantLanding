@@ -1,4 +1,3 @@
-
 button {
     padding: 0;
     border: none;
@@ -6,69 +5,80 @@ button {
     color: inherit;
     background-color: transparent;
     cursor: pointer;
-  }
-
-ul{
-    list-style-type:none;
 }
-.header{
+
+ul {
+    list-style-type: none;
+}
+
+.header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     color: #ffffff;
 }
-.backgroundHead{
+
+.backgroundHead {
     height: 100vh;
     background-image: url(./assets/G.png);
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
-.hoverBack h2{
+
+.hoverBack h2 {
     font-size: calc(49px + 26 * (100vw / 1280));
-    color:#ffc200;
+    color: #ffc200;
     margin-left: 5vw;
 }
-.hoverBack p{
-    color:#ffffff;
+
+.hoverBack p {
+    color: #ffffff;
     font-size: calc(9px + 11 * (100vw / 1280));
     text-align: center;
     margin-left: 4vw;
 }
-.orderBtn{
-width: 13vw;
-height: 5vh;
-background-color: #ffc200;
-border-radius: 5px;
-color: #333333;
-font-family: 'Montserrat';
-margin-left: 5vw;
-margin-top: 4vh;
-font-weight:bold;
+
+.orderBtn {
+    width: 13vw;
+    height: 5vh;
+    background-color: #ffc200;
+    border-radius: 5px;
+    color: #333333;
+    font-family: 'Montserrat';
+    margin-left: 5vw;
+    margin-top: 4vh;
+    font-weight: bold;
 }
-.hoverBack{
+
+.hoverBack {
     height: 50vh;
     width: 50vw;
     margin-left: 40vw;
     margin-top: 23vh;
 }
+
 .navList {
     display: flex;
-    
+
 }
-.navList li{
+
+.navList li {
     margin-left: 5vw;
     font-family: 'Montserrat';
     font-size: calc(9px + 11 * (100vw / 1280));
     margin-top: 1vw;
 }
-.hoverBack h2{
-font-family: 'Grand Hotel', cursive;
+
+.hoverBack h2 {
+    font-family: 'Grand Hotel', cursive;
 }
-.hoverBack p{
-font-family:  'Montserrat';
+
+.hoverBack p {
+    font-family: 'Montserrat';
 }
-.dishBlock{
+
+.dishBlock {
     background-color: #ffffff;
     font-family: 'Montserrat';
     font-size: calc(9px + 11 * (100vw / 1280));
@@ -78,36 +88,43 @@ font-family:  'Montserrat';
     justify-content: space-evenly;
     margin-bottom: 10%;
 }
-.dishBlock h2{
+
+.dishBlock h2 {
     font-family: 'Grand Hotel', cursive;
 }
-.dishBlock p{
+
+.dishBlock p {
     margin-bottom: 5%;
 }
-.dishList{
- 
+
+.dishList {
+
     display: flex;
     width: 100%;
     margin: 0 auto;
     justify-content: space-around;
 }
-.dish{
+
+.dish {
     display: flex;
     align-items: center;
     flex-direction: column;
     font-size: calc(9px + 15 * (100vw / 1280));
-    width:25%;
-   
+    width: 25%;
+
 }
-.dish h3{
+
+.dish h3 {
     font-family: 'Grand Hotel', cursive;
 }
-.dish p{
+
+.dish p {
     text-align: center;
 }
-.statBlock{
+
+.statBlock {
     background-image: url(./assets/Group\ 3.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -118,39 +135,135 @@ font-family:  'Montserrat';
     width: 100%;
     height: 100%;
 }
-.statBlock h2{
+
+.statBlock h2 {
     font-family: 'Grand Hotel', cursive;
-    color:#ffc200;
+    color: #ffc200;
     font-size: calc(9px + 40 * (100vw / 1280));
     letter-spacing: 7px;
 }
-.statCards{
+
+.statCards {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    margin:auto;
+    margin: auto;
 }
-.statCard{
+
+.statCard {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width:12vw;
-    height:25vh;
-    color:#ffffff;
-  background-image: url(./assets/circle.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+    width: 12vw;
+    height: 25vh;
+    color: #ffffff;
+    background-image: url(./assets/circle.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     font-family: 'Montserrat';
     font-size: calc(9px + 17 * (100vw / 1280));
-   margin-bottom: 10%;
+    margin-bottom: 10%;
 }
-.statCard .num{
-    color:#ffc200;
-   margin-bottom: 0;
+
+.statCard .num {
+    color: #ffc200;
+    margin-bottom: 0;
 }
-.upBlock{
+
+.upBlock {
     background-image: url(./assets/up.png);
     background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: -3%;
+}
+
+.upBlock h2 {
+    font-family: 'Grand Hotel', cursive;
+    color: #ffc200;
+    font-size: calc(9px + 40 * (100vw / 1280));
+    letter-spacing: 7px;
+}
+
+.downBlock {
+    background-image: url(./assets/down.png);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.downBlock h2 {
+    font-family: 'Grand Hotel', cursive;
+    color: #ffc200;
+    font-size: calc(9px + 40 * (100vw / 1280));
+    letter-spacing: 7px;
+}
+
+.subBlock {
+    background-image: url(./assets/Group\ 6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-evenly;
+}
+
+.subBlock h2 {
+    font-family: 'Grand Hotel', cursive;
+    color: #333333;
+    font-size: calc(9px + 40 * (100vw / 1280));
+    letter-spacing: 7px;
+}
+
+.subBlock p {
+    color: #333333;
+    font-family: 'Montserrat';
+    font-size: calc(9px + 11 * (100vw / 1280));
+    text-align: center;
+    margin-left: 4vw;
+}
+
+.subBtn {
+    width: 13vw;
+    height: 5vh;
+    background-color: #ffc200;
+    border-radius: 5px;
+    color: #333333;
+    font-family: 'Montserrat';
+
+    font-weight: bold;
+}
+
+.subForm {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.subForm input {
+    width: 40%;
+    height: 5Vh;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
 }
