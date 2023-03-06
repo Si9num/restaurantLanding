@@ -72,3 +72,61 @@
         width: 23%;
     }
 }
+
+@media screen and (min-width:360px) and (max-width: 639px) {
+    .hoverBack {
+        height: 20vh;
+        width: 40vw;
+        padding-left: 40vw;
+        padding-top: 0;
+        font-size: 5px;
+    }
+
+    .hoverBack h2 {
+        font-size: 14px;
+    }
+
+    .hoverBack p {
+        font-size: 5px;
+    }
+
+    .backgroundHead {
+        height: 30vh;
+    }
+
+    .statCard {
+        margin-bottom: 0;
+    }
+
+    .statCards {
+        height: 20vh;
+    }
+
+    .orderBtn {
+
+        height: 5%;
+        margin: 0
+    }
+
+    .subForm {
+        font-size: 7px;
+    }
+
+    .footCol {
+        width: 23%;
+    }
+
+    .searchImg {
+        width: 40%;
+    }
+
+    .upBlock {
+        align-items: baseline;
+        height: 50vh;
+        margin-bottom: -7%;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
