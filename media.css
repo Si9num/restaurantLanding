@@ -1,0 +1,74 @@
+@media screen and (max-width: 1500px) {
+    .hoverBack {
+        height: 50vh;
+        width: 50vw;
+        padding-left: 40vw;
+        padding-top: 0;
+    }
+
+    .backgroundHead {
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width:900px) and (max-width: 1000px) {
+    .hoverBack {
+        height: 40vh;
+        width: 40vw;
+        padding-left: 40vw;
+        padding-top: 0;
+
+    }
+
+    .hoverBack h2 {
+        font-size: 24px;
+    }
+
+    .hoverBack p {
+        font-size: 10px;
+    }
+
+    .backgroundHead {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width:639px) and (max-width: 900px) {
+    .hoverBack {
+        height: 40vh;
+        width: 40vw;
+        padding-left: 40vw;
+        padding-top: 0;
+        font-size: 10px;
+    }
+
+    .hoverBack h2 {
+        font-size: 24px;
+    }
+
+    .hoverBack p {
+        font-size: 10px;
+    }
+
+    .backgroundHead {
+        height: 40vh;
+    }
+
+    .statCard {
+        margin-bottom: 0;
+    }
+
+    .orderBtn {
+        width: 30%;
+        height: 5%;
+        margin: 0
+    }
+
+    .subForm {
+        font-size: 10px;
+    }
+
+    .footCol {
+        width: 23%;
+    }
+}

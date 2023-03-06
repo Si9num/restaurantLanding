@@ -9,7 +9,14 @@ button {
 
 ul {
     list-style-type: none;
+    padding: 0;
+
 }
+
+li {
+    cursor: pointer;
+}
+
 
 .header {
     display: flex;
@@ -17,6 +24,21 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     color: #ffffff;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: 0;
+}
+
+.header a:hover {
+    color: #ffc200;
+    transition: 0.5s;
+
+}
+
+.logo {
+    cursor: pointer;
 }
 
 .backgroundHead {
@@ -51,11 +73,23 @@ ul {
     font-weight: bold;
 }
 
+.orderBtn:hover {
+    background-color: #ffc400af;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.orderBtn:active {
+    background-color: #ffc400d7;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
 .hoverBack {
     height: 50vh;
     width: 50vw;
-    margin-left: 40vw;
-    margin-top: 23vh;
+    padding-left: 40vw;
+    padding-top: 23vh;
 }
 
 .navList {
@@ -122,6 +156,8 @@ ul {
     text-align: center;
 }
 
+
+
 .statBlock {
     background-image: url(./assets/Group\ 3.png);
     background-size: cover;
@@ -163,8 +199,14 @@ ul {
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'Montserrat';
-    font-size: calc(9px + 17 * (100vw / 1280));
+    font-size: calc(3px + 17 * (100vw / 1280));
     margin-bottom: 10%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .statCard .num {
@@ -223,6 +265,7 @@ ul {
     width: 100%;
     height: 80vh;
     justify-content: space-evenly;
+    margin-bottom: 0;
 }
 
 .subBlock h2 {
@@ -251,6 +294,18 @@ ul {
     font-weight: bold;
 }
 
+.subBtn:hover {
+    background-color: #ffc400af;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.subBtn:active {
+    background-color: #ffc400d7;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
 .subForm {
     width: 100%;
     display: flex;
@@ -266,4 +321,46 @@ ul {
     border: 0;
     border-radius: 10px;
     outline: none;
+}
+
+footer {
+    background-color: #303030;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-bottom: 5%;
+}
+
+.footDesc {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footCol {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footCol li {
+    padding-bottom: 8%;
+}
+
+.footCol li:hover {
+    color: #ffc400af;
+
+    transition: 0.3s;
+}
+
+footer img {
+    display: inline-block;
 }
